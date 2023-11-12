@@ -403,7 +403,9 @@ label {
 
 
 #products button{
-    height: 40px;
+    
+    margin: 20px;
+    height: 50px;
     width: 140px;
     border: none;
     background-color: #e1182c;
@@ -429,6 +431,7 @@ label {
 
 
 .modal-body-2{
+
     text-align: center;
 }
 
