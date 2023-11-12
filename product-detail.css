@@ -363,6 +363,165 @@ label {
     border: 0px solid #ececec;
 }
 
+    /* CSS cho modal */
+    .modal {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        z-index: 1;
+        width: 1000px;
+        height: 300px;
+        column-gap: 250px;
+        padding: 40px;
+      }
+  
+      .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 0;
+      }
+
+.right-block h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: #555;
+    border-bottom: 1px solid #ebebeb;
+    text-align: center;
+}
+
+
+#products button{
+    height: 40px;
+    width: 140px;
+    border: none;
+    background-color: #e1182c;
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#products button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.right-block h3 a{
+    text-decoration: none;
+    color: #555;
+}
+
+.right-block h3 a:hover{
+    color: #e1182c;
+}
+
+
+.modal-body-2{
+    text-align: center;
+}
+
+.modal-body-2 input{
+    margin-bottom: 10px;
+    width: 80px;
+}
+
+.modal-body-2 a{
+    text-decoration: none;
+    color:  white;
+}
+
+.modal-body-2 #donGia{
+    color: #000000;
+    font-size: 24px;
+}
+
+.button-dathang button:hover{
+    background-color: blue;
+}
+
+.button-dathang button{
+    border:none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: #e1182c;
+    margin-top: 30px;
+    column-gap: 40px ;
+    width: 140px;
+    height: 50px;
+    padding: auto;
+    display: inline-block;
+}
+
+.total-price-h{
+    text-align: center;
+    font-weight: 400;
+    color:#555;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.total-price{
+    margin-top: 50px;
+}
+
+
+.left-block{
+    margin-left: 20px;
+}
+
+.left-block i{
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    margin-right:8px ;
+}
+
+.product-new-price{
+    color: #e1182c;
+    margin-top: 8px;
+}
+      
+.product-title{
+    text-align: center;
+    font-weight: 400;
+    color: #555;
+    font-size: 14px;
+}
+
+.left-block h3{
+    text-align: center;
+    font-weight: 400;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border-bottom: 1px solid #ebebeb;
+    text-align: center;
+}
+.media-left img{
+    display: inline-block;
+    text-align: center;
+    height: 150px;
+    max-width: 100%;
+}
+.modal-body{
+    display: block;
+    text-align: center;
+}
+
 .mua-ngay button:hover{
     background-color: blue;
     color: white;

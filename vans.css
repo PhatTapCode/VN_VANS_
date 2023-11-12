@@ -59,11 +59,7 @@ header {
     font-size: 15px;
 }
 
-/* bottom menu */
-.bot-menu a:hover {
-    background-color: #e1182c;
-    color: white;
-}
+
 
 .bot-menu {
     height: 100px;
@@ -112,6 +108,7 @@ header {
     opacity: 0;
     visibility: hidden;
     transition: 0.2s ease-in-out;
+    z-index: 50;
 }
 
 .menu-5-items li:hover .dropdown {
@@ -460,6 +457,17 @@ button:hover {
     color: white;
 
 }
+
+.Pro-name a:hover{
+    color: #e12122;
+  }
+
+
+  .Pro-name a{
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+  }
 
 .content-sell h1 {
     padding-top: 40px;

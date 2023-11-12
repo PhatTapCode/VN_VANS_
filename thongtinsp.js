@@ -72,4 +72,38 @@ amountElement.addEventListener('input', ()=>{
     console.log(amount);
 })
 
+//thông tin đặt hàng 
+let selectedProduct;
+let selectedPrice;
 
+  function hienModal(tenSanPham, giaSanPham) {
+    selectedProduct = tenSanPham;
+    selectedPrice = giaSanPham;
+
+    const modal = document.getElementById('modal');
+    const overlay = document.getElementById('overlay');
+    const donGiaElement = document.getElementById('donGia');
+
+    // Hiển thị thông tin sản phẩm trong modal
+    donGiaElement.textContent = `${selectedPrice.toFixed()}VNĐ`;
+    
+    // Hiển thị modal và overlay
+    modal.style.display = 'flex';
+    overlay.style.display = 'block';
+  }
+
+  function anModal() {
+    const modal = document.getElementById('modal');
+    const overlay = document.getElementById('overlay');
+
+    // Ẩn modal và overlay
+    modal.style.display = 'none';
+    overlay.style.display = 'none';
+  }
+
+  function datHang() {
+    const soLuong = document.getElementById('soLuong').value;
+    const tongTien = selectedPrice * soLuong;
+        // Ẩn modal và overlay sau khi đặt hàng
+        anModal();
+}

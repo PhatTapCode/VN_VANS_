@@ -175,6 +175,7 @@ header {
 }
 
 .tieu-de { 
+    margin-top: 40px;
     width: 100%;
     height: 195px;
     background-image: url(https://bizweb.dktcdn.net/100/140/774/themes/827866/assets/bg_breadcrumb.jpg?1693503377354);
@@ -198,117 +199,145 @@ h1{
     text-decoration-line: none;
     color: white;
 }
-.mid{
-    margin-inline:10%;
-    justify-content: center;
-    display: flex;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container{
-    display: flex;
-    justify-content: center;
-    column-gap: 20px;
+    margin-inline: 120px;
+    min-height: 400px; 
+}
+.img-sp{
+    width: 90px;
+    margin-left: 20px;
+}
+table{
+    margin-top: 70px;
+    
+}
+.top-cart th{
+    border-top: 1px solid rgb(183, 183, 183);
+    max-height: 90px;
+    padding: 10px 0 10px;
+    border-bottom: 1px solid rgb(183, 183, 183);
+}
+.top-cart th .sp{
+    max-width: 100px;
+    border-right: 1px solid rgb(183, 183, 183) ;
+}
+.bot-cart td{
+    border-bottom: 1px solid rgb(183, 183, 183);
+    padding: 40px 0 40px;   
 }
 
-.head-content h1{
-    color: #000000;
-    font-weight: lighter;
-    font-size: 24px;
-}
-
-.groub {
-    width: 600px;
-    margin-top: 5px;
-    margin-bottom: 10px;    
-}
-
-.groub input{
-    width: 600px;
-    height: 40px;
-    margin-bottom: 10px;
-    margin-top: 0px;
-    border: 0.5px solid lightgray;
-}
-
-.style-text{
-    padding: 0 20px;
-    color: #333;
-    line-height: 40px;
-    font-weight: lighter;
-}
-
-label{
-    text-align: left;
-    font-weight: bold;
-    font-size: 15px;
-    width: 600px;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    color:black;
-}
-
-.sym{
-    color: #e1182c;
-}
-
-.groub button{
-    width: 600px;
-    height: 50px;
-    display: block;
-    background-color: #e1182c;
-    border-color: #e1182c;
-    color :white;
-    font-size: 20px;
-    padding: auto 30px;
-    box-shadow: none;
-    margin-bottom: 40px;
-}
-
-.text{
-    text-align: center;
-    font-size: 14px;
-    font-weight: lighter;
-}
-
-.style:hover{
-    color:red;
-    cursor: pointer;
-}
-
-.text p{
-    margin-top:40px;
-    margin-bottom: 40px;
-}
-
-.text a{
-    color:#e1182c;
-}
-
-.summit button:hover{
-    cursor: pointer;
-    background-color: white;
-    color: #e1182c;
-    font-weight: lighter;
-    border: 1px solid #e1182c;
-}
-
-.groub a{
+.inf-pro a {
     text-decoration: none;
+    color: rgb(82, 82, 82);
+    line-height: 30px;
+} 
+.inf-pro{
+    display: flex;   
+    padding-left: 90px; 
+}
+.inf-pro-right{
+    /* line-height: 50px; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+.inf-pro-right span{
+    padding-left: 0px;
+    font-size: 13px;
+
+}
+.tong-so-tien   {
+    margin-top: 20px;
+}
+.tongtien{
+    font-size: 25px;
+    padding-left: 800px;
+    font-weight: 200;
+}
+.total{
+    color: red;
+    font-size: 25px;
+}
+.ttmh{
+    margin-left: 700px;
+    padding: 12px 18px 12px 18px;
+    background-color: rgb(235, 232, 232);
+    border: rgb(204, 204, 204);
+}
+.thtt{
+    padding: 12px 18px 12px 18px;
+    background-color: rgb(245, 4, 4);
+    border: rgb(204, 204, 204);
     color: white;
-}
+    margin-left: 15px;
 
-.link:hover{
-    cursor: pointer;
 }
-
-.link{
+button{
+    margin-top: 20px;
+}
+table,th, td {
+    border:1px solid rgb(214, 214, 214);
+    border-collapse:collapse;
+    
+}
+.soluong button{
+    margin: 0 3px 0 3px;
+    border:white;
+    background-color: white;
+    font-size: 21px;
+}
+.soluong {
+    text-align: center;
+}
+.pro-price{
+    /* padding-left: 15px; */
     display: flex;
     justify-content: center;
-    height: 30px;
-    column-gap: 5px;
-    margin-top: 10px;
-    margin-bottom: 30px;
 }
+.xoa-sp{
+    width: 70px;
+}
+i.fa-solid.fa-x{
+    /* padding-left: 28px; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
     height: 635px;

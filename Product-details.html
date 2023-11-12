@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
         <!-- <tittle>Vans Việt Nam - Trải Nghiệm Vans Store Ngay Tại Nhà</tittle> -->
     </head>
-    <body>
+    <body onload='indexLoadPage()'>
         <header>
             <div class="menu">
                 <div class="top-menu">
@@ -16,9 +16,9 @@
                         <span> <a href="tel:0866956907">0866956907</a></span>
                     </div>
                     <div class="top-menu-right">
-                        <span> <a href="#">Đăng ký</a></span>
+                        <span> <a href="Dangki.html">Đăng ký</a></span>
                         <span> / </span>
-                        <span> <a href="#">Đăng nhập</a></span>
+                        <span> <a href="Dangnhap.html">Đăng nhập</a></span>
                     </div>
                 </div>
                 <div class="bot-menu">
@@ -74,7 +74,7 @@
                     </div>
                     <div class="bot-menu-right">
                         <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
 
                     </div>
                 </div>
@@ -198,10 +198,46 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/>
                                 </svg>                                  
                                 </button>
+                
                             </div>
                             <div class="mua-ngay">
-                                <button><i class="fa-solid fa-bag-shopping"></i> Mua ngay</button>
+                                <button onclick="hienModal('Sản phẩm 1', 1450000)"><i class="fa-solid fa-bag-shopping"></i> Mua ngay</button>
                             </div>
+                            <!-- Modal -->
+                            <div class="overlay" id="overlay"></div>
+                            <div class="modal" id="modal">
+                                <div class="left-block">
+                                    <h3><i class="fa-solid fa-check"></i> Bạn vừa thêm sản phẩm vào giỏ hàng</h3>
+                                        <div class="modal-body">
+                                            <div class="media">
+                                                <div class="media-left"><img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/140/774/products/vans-authentic-classic-black-vn000ee3blk-1.png"></div>
+                                                <div class="media-body">
+                                                    <div class="product-title">VANS AUTHENTIC CLASSIC BLACK/WHITE - 42</div>
+                                                    <div class="product-new-price">
+                                                        <span>1.450.000</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="right-block">
+                                    <h3 class="title"><i class="fa-solid fa-bag-shopping"></i><a href="cart.html"> Giỏ hàng của bạn</a></h3>
+                                        <div class="total-price">
+                                            <div class="total-price-h">Tổng tiền</div>
+                                            <div class="modal-body-2">
+                                                <span id="donGia"></span>
+                                                <br>
+                                                <div class="button-dathang">                                                                                                                                                        
+                                                    <button onclick="anModal()">Đóng</button> 
+                                                </div> 
+                                                <div class="container">
+                                                    <div class='row' id='products'></div>
+                                                </div> 
+                                                <script src="main.js"></script>
+                                                </div>
+                                            </div> 
+                                        </div> 
+                                </div>              
                         </div>
                     </div>
                     <div class="line"></div>
@@ -271,7 +307,6 @@
   
    
 </div>
-
 <footer class="footer">
             <div class="footer-top">
                 <form>
@@ -319,6 +354,8 @@
                 </div>
             </div>
         </footer>
+        
     </body>
     <script src="thongtinsp.js"></script>
+
 </html>
