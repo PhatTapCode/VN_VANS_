@@ -318,13 +318,46 @@ i.fa-solid.fa-x{
     justify-content: center;
 }
 
+.ratien{
+    display: flex;
+}
 
+.tieptucmuahang button a{
+    text-decoration: none;
+    color: black;
+}
+.tieptucmuahang button{
+    border:  #555;
+    background-color: whitesmoke;
+    height: 60px;
+    width: 190px;
+}
+.thanhtoan button a{
+    text-decoration: none;
+    color: #F2F2F2;
+    font-weight: bolder ;
+}
 
+.thanhtoan button{
+    border:  #555;
+    background-color: #e1182c;
+    height: 60px;
+    width: 190px;
+}
 
+.thanhtoan button:hover{
+    background-color: white;
+    border:1px solid #e1182c;
+}
+.thanhtoan button a:hover{
+    color: #e1182c;
+}
 
-
-
-
+.col-12{
+    display: flex;
+    column-gap: 50%;
+    margin-bottom: 30px;
+}
 
 
 
