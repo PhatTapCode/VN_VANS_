@@ -162,7 +162,7 @@ div.COD{
     font-size: 13px;
     margin-left: 13px;
     margin-top: 22px;
-color: rgb(79, 79, 79);
+    color: rgb(79, 79, 79);
 }
 div.thanh-toan{
     border: 1px solid rgb(202, 200, 200);
@@ -197,9 +197,7 @@ div.sp{
     border-bottom: 1px solid rgb(202, 200, 200);
 
 }
-/* div.img{
-    margin-left: -50px;
-} */
+
 div.sp-name{
     width: 180px;
     display: flex;
